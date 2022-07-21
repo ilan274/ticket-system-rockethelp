@@ -1,7 +1,7 @@
 import { Heading, Icon, VStack, useTheme } from 'native-base';
 import { Envelope, Key } from 'phosphor-react-native';
 import Logo from '../assets/logo_primary.svg';
-import { Input } from '../Input/Input';
+import { Input } from '../components/Input';
 
 export const SignIn = () => {
   const { colors } = useTheme();
